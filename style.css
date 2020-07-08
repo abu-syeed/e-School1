@@ -1,0 +1,253 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    max-width: 405px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+/* Common css */
+.section-header h2{
+    padding-bottom: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+.footer-padding{
+    padding: 45px 0 20px 0;
+}
+.section-padding{
+    padding: 63px 0;
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.boxed_btn {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 17px 50px;
+  background: #04D2C8;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Section background */
+section.header-section {
+    background: #F0FFF0;
+}
+.banner-section{
+    background: #F0FFF0;
+}
+footer{
+    background: #282531;
+}
+
+/* button */
+.btn-primary{
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    padding: 12px 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #34b67b;
+    border-color: none;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #21B573;
+    border: none;
+}
+
+/* navigation */
+
+li.nav-item:last-child {
+    padding-right: 0;
+}
+li.nav-item {
+    padding: 0 10px;
+}
+.navbar {
+    padding: 2.5rem 1rem 1rem 1rem;
+}
+a.navbar-brand {
+    max-width: 200px;
+}
+
+/* banner section */
+.banner-content p{
+    max-width: 403px;
+}
+.banner-text-design{
+    color: #21B573;
+}
+
+/*summery card */
+.summery-section img.card-img-top {
+    max-width: 80px;
+    margin: 0 auto;
+    max-height: 122px;
+}
+.summery-section .card-body {
+    text-align: center;
+    padding: 30px;
+}
+.summery-section .card img {
+    padding-top: 40px;
+}
+.summery-section .card{
+    border:none;
+    transition: .2s ease;
+    background: #F8FFFB;
+}
+.summery-section .card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* book card */
+.book-section .card-img-top {
+    padding: 20px;
+}
+.book-section .card-body {
+    padding-top: 0px;
+}
+.card-title {
+    margin-bottom: 0;
+    color: #413960;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.book-section .card {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.img-fluidd {
+    width: 20px;
+    height: 20px;
+}
+.icon-left .icon p {
+    margin: 0;
+}
+.icon-left p {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.icon-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* testimonial */
+.testimonial-flex {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.testymonial-avater .img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
+/* footer */
+
+footer {
+    margin-top: 45px;
+    padding: 40px;
+    padding-bottom: 0;
+    background: #282531;
+}
+
+
+footer p, footer li {
+    color: #fff;
+
+}
+footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+ }
+ 
+ footer a {
+    color: #34B67B;
+    text-decoration: 
+ }
+ 
+ footer a:hover{
+    color: #34B67B;
+}
+.footer_border {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+padding-bottom: 30px;
+}
